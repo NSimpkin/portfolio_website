@@ -1,0 +1,123 @@
+/* @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
+/* Red colour palette
+#1c0818
+#350d24
+#4c1026
+#681225
+#810e23
+#941416 
+*/
+
+
+* {
+    font-family: 'New Rocker', cursive;
+}
+
+body{
+    margin: 0px 0px 0px 0px;
+    background-color: black;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #350d24;
+    height: 60px;
+    border-color:#4c1026;
+    border-width: 10px;
+    border-style:outset;
+    padding: 30px 30px 30px 30px;
+    margin: 0px 0px 0px 0px;
+}
+
+a {
+    color: #941416;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #350d24;
+    border-color:#4c1026;
+    border-width: 10px;
+    border-style:outset;
+    padding: 10px 15px 10px 15px;
+    margin: 10px 10px 10px 10px;
+}
+
+a:hover {
+    color: #810e23;
+    font-weight: bolder;
+    background-color:#1c0818;
+    border-style:inset;
+}
+
+#index_body {
+    background-image: url(images/church_int_wide.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#about_body {
+    background-image: url(images/dark_library_bw.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.mainfont {
+    color:#941416;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 88px;
+    /* background-color:#1c0818;
+    border-style:solid;
+    border-width: 6px;
+    border-color:#681225; */
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+}
+
+/* #book {
+    width:30%;
+    opacity: 100%;
+    filter: blur(1px);
+    -webkit-filter:blur(1px);
+    margin: 0px 0px 0px 0px;
+} */
+
+#phone {
+    width:100%;
+    opacity: 100%;
+    /* filter: blur(1px);
+    -webkit-filter:blur(1px); */
+    margin: 0px 0px 0px 0px;
+}
+
+p {
+    font-size: 40px;
+    padding: 32px 44px 44px 44px;
+}
+
+#p_index {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin: 824px 0px 0px 30px;
+}
+
+#p_about {
+    margin: 44px 0px 444px 320px;
+}
+
+#p_contact {
+    margin: 0px 0px 30px 0px;
+}
