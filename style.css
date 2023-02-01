@@ -18,7 +18,9 @@
 
 body{
     margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     background-color: black;
+    max-width: 100vw;
 }
 
 #navbar {
@@ -27,29 +29,39 @@ body{
     justify-content: center;
     justify-content: space-around;
     background-color: #350d24;
-    height: 60px;
+    max-height: 10vh;
+    max-width: 92.8%;
     border-color:#4c1026;
-    border-width: 10px;
+    border-width: 2vw;
     border-style:outset;
-    padding: 30px 30px 30px 30px;
+    padding: 5vw 3vw 4vw 3vw;
     margin: 0px 0px 0px 0px;
 }
 
 a {
+    display:flex;
+    align-items: center;
     color: #941416;
-    font-size: 36px;
+    font-size: 4vw;
     font-weight: bold;
     text-decoration: none;
     background-color: #350d24;
     border-color:#4c1026;
-    border-width: 10px;
+    border-width: 1.5vw;
     border-style:outset;
-    padding: 10px 15px 10px 15px;
-    margin: 10px 10px 10px 10px;
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 2vw 2vw 3vw 2vw;
+    max-width: 15vw;
+    max-height: 8vh;
+    min-height: 6vh;
+}
+
+#cn_link {
+    font-size: 2.66vw;
 }
 
 a:hover {
-    color: #810e23;
+    color: #681225;
     font-weight: bolder;
     background-color:#1c0818;
     border-style:inset;
@@ -77,13 +89,50 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 88px;
+    font-size: 9vw;
     padding: 10px 10px 10px 10px;
     margin: 0px 0px 0px 0px;
+    position: relative;
+    animation-name: header_fade_blink;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+    /* max-width: 100vw; */
+}
+
+@keyframes header_fade_blink {
+    0% {color:#941416; opacity: 0%;}
+    5% {color:#941416; opacity: 6%;}
+    10% {color:#941416; opacity: 12%;}
+    15% {color:#941416; opacity: 18%;}
+    20% {color:#941416; opacity: 24%;}
+    25% {color:#941416; opacity: 30%;}
+    30% {color:#941416; opacity: 36%;}
+    35% {color:#941416; opacity: 42%;}
+    40% {color:#941416; opacity: 48%;}
+    45% {color:#941416; opacity: 54%;}
+    50% {color:#941416; opacity: 60%;}
+    55% {color:#941416; opacity: 66%;}
+    60% {color:#941416; opacity: 72%;}
+    65% {color:#941416; opacity: 78%;}
+    70% {color:#941416; opacity: 84%;}
+    75% {color:#941416; opacity: 90%;}
+    80% {color:#941416; opacity: 96%;}
+    85% {color:#941416; opacity: 100%;}
+    88% {color:#941416; opacity: 33%;}
+    90% {color:#941416; opacity: 0%;}
+    92% {color:#941416; opacity: 0%;}
+    94% {color:#941416; opacity: 33%;}
+    96% {color:#941416; opacity: 100%;}
+    98% {color:#941416; opacity: 66%;}
+    99% {color:#c51c1f; opacity: 95%;}
+    100% {color:#941416; opacity: 100%;}
 }
 
 #phone {
-    width:100%;
+    max-width:100%;
+    height: auto;
     opacity: 100%;
     /* filter: blur(1px);
     -webkit-filter:blur(1px); */
@@ -91,19 +140,16 @@ h1 {
 }
 
 p {
-    font-size: 40px;
+    font-size: 5vw;
     padding: 32px 44px 44px 44px;
 }
 
 #p_index {
-    display: flex;
-    flex-direction: row;
-    justify-items: center;
-    margin: 824px 0px 0px 30px;
+    margin: 66% 0px 0px 30px;
 }
 
 #p_about {
-    margin: 44px 0px 444px 320px;
+    margin: 44px 0px 444px 26%;
 }
 
 #p_contact {
