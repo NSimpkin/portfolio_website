@@ -47,11 +47,11 @@ a {
     font-size: 4vw;
     font-weight: bold;
     text-decoration: none;
-    background-color: #350d24;
-    border-color:#4c1026;
+    background-color:#4c1026;
+    border-color:#681225;
     border-width: 1.5vw;
     border-style:outset;
-    border-radius: 18%;
+    border-radius: 15%;
     padding: 1vw 1vw 1vw 1vw;
     margin: 2vw 2vw 3vw 2vw;
     max-width: 15vw;
@@ -66,11 +66,22 @@ a {
 }
 
 a:hover {
-    color: #681225;
+    color: #cc1b1d;
     font-weight: bolder;
-    background-color:#1c0818;
+    background-color:#681225;
+    border-color: #810e23;
+    box-shadow: 0.5vw 0.7vw 0.7vw black;
+    text-shadow: 0.5vw 0.8vw 0.5vw black;
+}
+
+a:active {
+    color: #681225;
+    background-color: #1c0818;
+    border-color: #350d24;
+    transform:translate(0.3vw, 0.3vw);
     border-style:inset;
     box-shadow: none;
+    text-shadow: 0.3vw 0.6vw 0vw black;
 }
 
 #index_body {
@@ -104,7 +115,7 @@ h1 {
     animation-iteration-count: 1;
     animation-delay: 0.5s;
     animation-fill-mode: backwards;
-    text-shadow: 1vw 1.5vw 1.5vw #681225;
+    text-shadow: 1vw 1.2vw 1vw #4c1026;
 }
 
 @keyframes header_fade_blink {
@@ -152,13 +163,16 @@ p {
 }
 
 #p_index {
-    margin: 88vw 3vw 3vw 6vw;
+    margin: 58vw 3vw 3vw 6vw;
+    text-shadow: 0.24vw 0.24vw 0.24vw black;
 }
 
 #p_about {
     margin: 6vw 0vw 36vw 24vw;
+    text-shadow: 0.4vw 0.5vw 0.6vw black;
 }
 
 #p_contact {
     margin: 0px 0px 30px 0px;
+    text-shadow: 0.3vw 0.3vw 0.3vw #4c1026;
 }
