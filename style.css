@@ -57,6 +57,8 @@ a {
     max-width: 15vw;
     max-height: 8vh;
     min-height: 6vh;
+    box-shadow: 0.6vw 1vw 1vw black;
+    text-shadow: 0.3vw 0.6vw 0.3vw black;
 }
 
 #cn_link {
@@ -68,6 +70,7 @@ a:hover {
     font-weight: bolder;
     background-color:#1c0818;
     border-style:inset;
+    box-shadow: none;
 }
 
 #index_body {
@@ -101,6 +104,7 @@ h1 {
     animation-iteration-count: 1;
     animation-delay: 0.5s;
     animation-fill-mode: backwards;
+    text-shadow: 1vw 1.5vw 1.5vw #681225;
 }
 
 @keyframes header_fade_blink {
