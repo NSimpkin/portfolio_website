@@ -176,3 +176,45 @@ p {
     margin: 0px 0px 30px 0px;
     text-shadow: 0.3vw 0.3vw 0.3vw #4c1026;
 }
+
+/* Media queries examples:
+
+Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {
+    body{
+        background-color:aqua;
+        font-size: 6px;
+    }
+}
+
+Small devices (portrait tablets and large phones, 600px and up)
+@media only screen and (min-width: 600px) {
+    body{
+        background-color:bisque;
+        font-size: 12px;
+    }
+}
+
+Medium devices (landscape tablets, 768px and up)
+@media only screen and (min-width: 768px) {
+    body{
+        background-color:chartreuse;
+        font-size: 18px;
+    }
+}
+
+Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width: 992px) {
+    body{
+        background-color:darkgreen;
+        font-size: 24px;
+    }
+}
+
+Extra large devices (large laptops and desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {
+    body{
+        background-color:gold;
+        font-size: 30px;
+    }
+} */
