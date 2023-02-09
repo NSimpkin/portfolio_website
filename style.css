@@ -157,9 +157,10 @@ h1 {
 }
 
 p {
-    font-size: 3.3em;
+    /* font-size: 3.3em; */
     padding: 3vw 3vw 3vw 3vw;
     margin: 0px 0px 0px 0px;
+    word-wrap: break-word;
 }
 
 #p_index {
@@ -172,49 +173,49 @@ p {
     text-shadow: 0.4vw 0.5vw 0.6vw black;
 }
 
+#contact_p_div {
+    max-width:90%;
+    height: 100%;
+}
+
 #p_contact {
     margin: 0px 0px 30px 0px;
     text-shadow: 0.3vw 0.3vw 0.3vw #4c1026;
 }
 
-/* Media queries examples:
+/* Media queries examples: */
 
-Extra small devices (phones, 600px and down)
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     body{
-        background-color:aqua;
-        font-size: 6px;
+        font-size: 1.8em;
     }
 }
 
-Small devices (portrait tablets and large phones, 600px and up)
+/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     body{
-        background-color:bisque;
-        font-size: 12px;
+        font-size: 2.1em;
     }
 }
 
-Medium devices (landscape tablets, 768px and up)
+/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     body{
-        background-color:chartreuse;
-        font-size: 18px;
+        font-size: 2.5em;
     }
 }
 
-Large devices (laptops/desktops, 992px and up)
+/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     body{
-        background-color:darkgreen;
-        font-size: 24px;
+        font-size: 3em;
     }
 }
 
-Extra large devices (large laptops and desktops, 1200px and up)
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     body{
-        background-color:gold;
-        font-size: 30px;
+        font-size: 3.6em;
     }
-} */
+}
